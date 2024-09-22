@@ -6,6 +6,7 @@ import { IndicatorInput } from '../indicator/indicator';
 export declare class RenkoInput extends IndicatorInput {
     period?: number;
     brickSize?: number;
+    brickSizeDivider?: number;
     useATR?: boolean;
     low?: number[];
     open?: number[];
